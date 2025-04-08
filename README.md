@@ -1,4 +1,4 @@
-# EXP.NO.6-Simulation-of-Hamming-and-Shannon-Fano-Code
+## EXP.NO.6-Simulation-of-Hamming-and-Shannon-Fano-Code
 
 ## AIM:
  Simulation of Hamming and Shannon-Fano Code
@@ -7,9 +7,9 @@
 
  Google Collab
 
-# ALGORITHMS:
+## ALGORITHMS:
 
-## Huffman Coding Algorithm:
+### Huffman Coding Algorithm:
 
 Input the probability of each symbol/message (e.g., P₁, P₂, ..., Pₙ).
 
@@ -28,7 +28,7 @@ Going right = 1
 
 The result is a prefix-free binary code for each symbol.
 
-## Shannon–Fano Coding Algorithm:
+### Shannon–Fano Coding Algorithm:
 
 Input the probabilities P₁, P₂, ..., Pₙ of each symbol.
 
@@ -45,7 +45,8 @@ Keep appending the new bit (0 or 1) to the code as you go down each level.
 After all divisions, each symbol will have a unique binary code.
 
 
-# PROGRAM:#Huffman and Shannon-Fano coding
+## PROGRAM:
+### Huffman and Shannon-Fano coding
 ```
 import numpy as np
 import math 
@@ -88,10 +89,10 @@ print(f"Variance is : {var}")
 
 ```
 
-# OUTPUT:
+## OUTPUT:
 ![image](https://github.com/user-attachments/assets/b365733b-e380-4646-89ac-4f2c675f3c15)
 
 
  
-# RESULT:
+## RESULT:
 Simulation of Huffman and Shannon–Fano Code was verified successfully. The computed values of entropy, average codeword length, efficiency, redundancy, and variance confirmed the correctness of the coding techniques.
